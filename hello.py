@@ -1,4 +1,6 @@
-name = input('What is your name, surname first? ')
-hours = int(input('What is the total number of hours you worked this week? '))
-salary = hours * 250 * 4
-print(f'\Hi! {name}, because you work {hours} weekly, your earnings this month is {salary}, thank you for your diligence')
+numbers = [3,8,7,2,10]
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number 
+        print(max)
